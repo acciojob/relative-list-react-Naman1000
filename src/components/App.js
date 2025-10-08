@@ -1,13 +1,13 @@
 import React from 'react'
 
-const App = () => {\
+const App = () => {
   const relatives = ["Uncle", "Aunt", "Grandparents", "Cousin", "Brother"];
   return (
     <div id="main">
                {/* Do not remove the main div */}
     <ol id ="relativeList">
     {relatives.map((relative,index)=>(
-      <li key= {`relativeItem${index+1}`}> 
+      <li key= {`relativeListItem${index+1}`}> 
       relative
   </li>
         ))}
